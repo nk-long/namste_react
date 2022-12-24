@@ -1,0 +1,67 @@
+ Q1)What is Emmet?
+     It allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, developers type less, they save both on 
+ keystrokes and time.
+    Emmet uses different abbreviations and short expressions depending on what's passed, and then dynamically converts the abbreviations into
+the full code. Emmet is mostly used for HTML, XML, and CSS, but it can also be used with programming.
+
+
+Q2)  Difference between a Library and Framework?
+
+      Library ====1. A library is a collection of packages that perform specific operations
+                  2. Libraries contain a number of methods that a developer can just call whenever they write code.
+                  3.  It performs a set of specific and well-defined operations. Examples : Network protocols, compression, image manipulation, 
+                  string utilities, regular expression evaluation, math etc. 
+
+      
+      Framework ==1. framework contains the basic flow and architecture of an application.
+                  2. Framework: It is known to be a skeleton where the application defines
+                   the content of the operation by filling out the skeleton.
+                  3. framework contains a large collection of libraries that provides the developer with inbuilt functionalities, which helps to
+                   develop an application without extensive coding knowledge. 
+
+
+Q3) What is CDN? Why do we use it?
+    
+        A CDN is a network of servers that distributes content from an “origin” server throughout the world by caching content
+    close to where each end user is accessing the internet via a web-enabled device. 
+        The content they request is first stored on the origin server and is then replicated and stored elsewhere as needed.
+        There are basically two types of CDNs, a public and a private CDN. A public CDN is managed by a CDN operator and is
+     based on a pay-as-you-use model.
+
+     CDNs help reduce the bandwidth demands on origin servers, reducing bandwidth and web hosting costs for website owners. 
+        A CDN helps improve the page load time of your site and makes it faster. Crash Resistance – Using a CDN allows you to distribute
+     the load to multiple servers instead of having 100% traffic to our main server, thus making it less likely to crash.
+
+
+Q4) Why is React known as React?
+        Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes
+     the app's data, the view should “react” or change with those user events.
+
+
+Q5) What is crossorigin in script tag?
+        The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources
+     on other servers. Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images,
+     fonts, or scripts) from another domain.
+        The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to 
+    handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from 
+    other domains.
+
+Q6)  What is diference between React and ReactDOM?
+        ReactDOM is a package that provides DOM specific methods that can be used at the top level of a web app to enable 
+    an efficient way of managing DOM elements of the web page.
+        The react package holds the react source for components, state, props and all the code that is react.
+
+
+Q7)  What is difference between react.development.js and react.production.js files via CDN?
+        react.development = The development build is used - as the name suggests - for development reasons. You have Source Maps, debugging
+    and often times hot reloading ability in those builds.
+
+        react.production.js = The production build, on the other hand, runs in production mode which means this is the code running on your client's machine. 
+    The production build runs uglify and builds your source files into one or multiple minimized files. It also extracts CSS and images 
+    and of course any other sources you're loading with Webpack. There's also no hot reloading included. Source Maps might be included as 
+    separate files depending on your webpack
+        The very basic difference is that Production Build has ugly, minified(compressed) version of your javascript code, so this makes 
+    rendering of file on end user's browser very quick and performance enhancing.
+
+
+Q8) 
